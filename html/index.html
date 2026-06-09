@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstateHub - Home</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-icon">&#8962;</span>EstateHub</a>
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="#">About Us</a>
+      <a href="messages.html">Contact</a>
+    </nav>
+    <a class="btn dark hide-mobile" href="login.html">Login / Register</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Find Your <span>Dream Property</span></h1>
+        <p>Buy, sell and rent properties with confidence through a trusted real estate marketplace.</p>
+        <form class="search-panel">
+          <div class="field">
+            <label>Location</label>
+            <select><option>All Locations</option><option>Lahore</option><option>Karachi</option><option>Islamabad</option></select>
+          </div>
+          <div class="field">
+            <label>Property Type</label>
+            <select><option>All Types</option><option>House</option><option>Apartment</option><option>Commercial</option></select>
+          </div>
+          <div class="field">
+            <label>Buy / Rent</label>
+            <select><option>Buy</option><option>Rent</option></select>
+          </div>
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Properties</h2>
+          <a class="muted" href="properties.html">View All</a>
+        </div>
+        <div class="grid-3">
+          <article class="property-card">
+            <div class="property-img" data-img="house"><span class="tag">For Sale</span></div>
+            <div class="property-body">
+              <h3>Modern House</h3>
+              <p class="muted">Lahore</p>
+              <div class="facts"><span>5 Beds</span><span>6 Baths</span></div>
+            </div>
+          </article>
+          <article class="property-card">
+            <div class="property-img" data-img="apartment"><span class="tag">For Sale</span></div>
+            <div class="property-body">
+              <h3>Luxury Apartment</h3>
+              <p class="muted">Karachi</p>
+              <div class="facts"><span>3 Beds</span><span>4 Baths</span></div>
+            </div>
+          </article>
+          <article class="property-card">
+            <div class="property-img" data-img="plaza"><span class="tag">For Sale</span></div>
+            <div class="property-body">
+              <h3>Commercial Plaza</h3>
+              <p class="muted">Islamabad</p>
+              <div class="facts"><span>3 Floors</span><span>3 Baths</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="../js/script.js"></script>
+</body>
+</html>

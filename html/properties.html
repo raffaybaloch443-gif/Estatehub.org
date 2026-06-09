@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstateHub - Properties</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-icon">&#8962;</span>EstateHub</a>
+    <nav class="nav"><a href="index.html">Home</a><a class="active" href="properties.html">Properties</a><a href="#">About Us</a><a href="messages.html">Contact</a></nav>
+    <a class="btn dark hide-mobile" href="login.html">Login / Register</a>
+  </header>
+  <main class="section">
+    <div class="container">
+      <div class="page-title">
+        <h1>Properties</h1>
+        <p class="breadcrumb">Home / Properties</p>
+      </div>
+      <div class="listing-layout">
+        <aside class="panel filters">
+          <h3>Filters</h3>
+          <div class="field"><label>Location</label><select><option>All Locations</option><option>Lahore</option><option>Karachi</option></select></div>
+          <div class="field"><label>Property Type</label><select><option>All Types</option><option>House</option><option>Apartment</option></select></div>
+          <div class="field"><label>Buy / Rent</label><select><option>Buy</option><option>Rent</option></select></div>
+          <div class="field"><label>Price Range</label><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><input placeholder="Min"><input placeholder="Max"></div></div>
+          <button class="btn">Apply Filters</button>
+        </aside>
+        <section>
+          <div class="section-head panel">
+            <span class="muted">Showing 1-12 of 120 Properties</span>
+            <select style="max-width:160px"><option>Sort By: Newest</option><option>Price High</option><option>Price Low</option></select>
+          </div>
+          <div class="list-stack">
+            <article class="list-card">
+              <div class="property-img" data-img="house"><span class="tag">For Sale</span></div>
+              <div><h3>Modern House</h3><p class="muted">Lahore</p><p class="price">PKR 2,50,00,000</p><div class="facts"><span>5 Beds</span><span>6 Baths</span><span>10 Marla</span></div></div>
+              <a class="btn small light" href="property-detail.html">View Details</a>
+            </article>
+            <article class="list-card">
+              <div class="property-img" data-img="apartment"><span class="tag">For Sale</span></div>
+              <div><h3>Luxury Apartment</h3><p class="muted">Karachi</p><p class="price">PKR 1,75,00,000</p><div class="facts"><span>3 Beds</span><span>4 Baths</span></div></div>
+              <a class="btn small light" href="property-detail.html">View Details</a>
+            </article>
+            <article class="list-card">
+              <div class="property-img" data-img="plaza"><span class="tag">For Sale</span></div>
+              <div><h3>Commercial Plaza</h3><p class="muted">Islamabad</p><p class="price">PKR 3,20,00,000</p><div class="facts"><span>10 Marla</span></div></div>
+              <a class="btn small light" href="property-detail.html">View Details</a>
+            </article>
+            <article class="list-card">
+              <div class="property-img" data-img="plot"><span class="tag">For Sale</span></div>
+              <div><h3>Residential Plot</h3><p class="muted">Faisalabad</p><p class="price">PKR 85,00,000</p><div class="facts"><span>5 Marla</span></div></div>
+              <a class="btn small light" href="property-detail.html">View Details</a>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="../js/script.js"></script>
+</body>
+</html>
