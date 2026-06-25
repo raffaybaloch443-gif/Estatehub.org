@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EstateHub - Add Property</title>
+  <link rel="stylesheet" href="./css/style.css"></head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-icon">&#8962;</span>EstateHub</a><nav class="nav"><a href="index.html">Home</a><a href="properties.html">Properties</a><a href="about.html">About Us</a><a href="messages.html">Contact</a></nav><div class="avatar"></div></header>
+  <div class="app-layout">
+    <aside class="sidebar"><nav class="side-nav"><a href="dashboard.html">&#8962; Dashboard</a><a href="dashboard.html">&#9635; My Properties</a><a class="active" href="add-property.html">+ Add Property</a><a href="agreements.html">&#9776; My Agreements</a><a href="messages.html">&#9993; Messages</a><a href="#">&#9673; Profile</a><a href="#">&#9881; Change Password</a><a href="login.html">&#8617; Logout</a></nav></aside>
+    <main class="app-main">
+      <form class="form-card">
+        <h1>Add Property</h1><p class="breadcrumb" style="text-align:center">Dashboard / Add Property</p>
+        <h3>Property Information</h3>
+        <div class="form-grid">
+          <div class="field full"><label>Property Title</label><input placeholder="Enter property title"></div>
+          <div class="field"><label>Property Type</label><select><option>Select Type</option><option>House</option><option>Apartment</option></select></div>
+          <div class="field"><label>Buy / Rent</label><select><option>Select Option</option><option>Buy</option><option>Rent</option></select></div>
+          <div class="field"><label>Price</label><input placeholder="Enter price"></div>
+          <div class="field"><label>Location</label><input placeholder="Enter location"></div>
+          <div class="field"><label>Area</label><input placeholder="Enter area e.g. 10 Marla"></div>
+          <div class="field"><label>Bedrooms</label><input placeholder="Enter number of bedrooms"></div>
+          <div class="field"><label>Bathrooms</label><input placeholder="Enter number of bathrooms"></div>
+          <div class="field full"><label>Description</label><textarea placeholder="Enter property description"></textarea></div>
+          <div class="field full"><label>Property Images</label><div class="upload">Click to upload images<br><small>or drag and drop<br>JPG, PNG up to 5MB each</small></div></div>
+        </div>
+        <br><button class="btn" type="submit" style="width:100%">Submit Property</button>
+      </form>
+    </main>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
